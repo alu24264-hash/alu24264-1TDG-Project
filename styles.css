@@ -1,32 +1,33 @@
 p{
-
+font: 1em sans-serif;
+font-size: 20%;
 }
 h1{
-
+font: 1em sans-serif;
+font-size: 30%;
 }
 img{
 
 }
 .navbar ul {
-    list-style-type: 
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: 
+    overflow: hidden;
     }
       
 .navbar li {
-    float: 
+    float: left;
     }
       
 .navbar li a { 
-    display: 
-    text-align:
-    padding: 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     }
 .navbar a{
-    background-color:
+    
 }
 .navbar a{
-    text-decoration: 
-    color: 
+    
 }
