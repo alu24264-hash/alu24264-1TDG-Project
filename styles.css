@@ -31,3 +31,7 @@ font-size: xx-large;
     font: 1em sans-serif;
     font-size: 50%;
  }
+ .about{
+    display: flex;
+    flex-direction: column;
+ }
