@@ -1,4 +1,3 @@
-
 p{
     font: 1em sans-serif;
     font-size: x-large;
@@ -8,29 +7,31 @@ h1{
     font-size: xx-large;
 }
 .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
           
 .navbar li {
-        float: left;
+    float: left;
 }
           
 .navbar li a { 
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-}
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    }
 .container{
-        display: flex;
-        flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
 }
-.text{
+    .text{
         padding: 10%;
-}
-.about{
+     }
+     .about{
         display: flex;
         flex-direction: column;
-}
+        padding: 5%;
+     }
