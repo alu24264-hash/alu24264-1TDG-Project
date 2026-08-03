@@ -21,17 +21,22 @@ h1{
     display: block;
     text-align: center;
     padding: 14px 16px;
-    }
+}
 .container{
     display: flex;
     flex-direction: row;
     padding: 5%;
 }
-    .text{
+.text{
         padding: 10%;
-     }
-     .about{
-        display: flex;
-        flex-direction: column;
-        padding: 5%;
-     }
+}
+.container img{
+    height: auto; 
+    width: 85%;
+}
+.image-column{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 20px; 
+    padding: 4%;
+}
