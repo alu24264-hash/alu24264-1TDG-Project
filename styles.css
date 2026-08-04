@@ -3,6 +3,8 @@ p{
     font-size: x-large;
 }
 h1{
+    display: block;
+    text-align: center;
     font: 1em sans-serif;
     font-size: xx-large;
 }
@@ -53,4 +55,7 @@ h1{
 .image-text-column img{
     height: auto; 
     width: auto;
+}
+body{
+    background-color: (133,211,143);
 }
