@@ -31,12 +31,26 @@ h1{
         padding: 10%;
 }
 .container img{
-    height: auto; 
-    width: 85%;
+    height: 200px; 
+    width: 60%;
 }
 .image-column{
     display: flex;
     flex-direction: column; 
     row-gap: 20px; 
     padding: 4%;
+}
+.image-column img{
+    height: 100px; 
+    width: 60%;
+}
+.image-text-column{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 10px; 
+    padding: 2%;
+}
+.image-text-column img{
+    height: 200px; 
+    width: 60%;
 }
