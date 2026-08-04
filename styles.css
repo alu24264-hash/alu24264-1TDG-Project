@@ -31,8 +31,8 @@ h1{
         padding: 10%;
 }
 .container img{
-    height: 200px; 
-    width: 60%;
+    height: auto; 
+    width: auto;
 }
 .image-column{
     display: flex;
@@ -41,8 +41,8 @@ h1{
     padding: 4%;
 }
 .image-column img{
-    height: 100px; 
-    width: 60%;
+    height: auto; 
+    width: auto;
 }
 .image-text-column{
     display: flex;
@@ -51,6 +51,6 @@ h1{
     padding: 2%;
 }
 .image-text-column img{
-    height: 200px; 
-    width: 60%;
+    height: auto; 
+    width: auto;
 }
