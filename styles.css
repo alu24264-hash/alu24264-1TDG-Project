@@ -24,15 +24,44 @@ h1{
     text-align: center;
     padding: 14px 16px;
 }
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+.home-image img{
+    width: 320px;
+    height: 420px;
+    object-fit: fill;
+}
+.home-image,
+.home-text{
+    flex: 1;
+    padding: 5%;
+}
 .container{
     display: flex;
     flex-direction: row;
     padding: 5%;
 }
+.container img{
+    height: auto; 
+    width: 100%;
+}
 .text{
         padding: 10%;
 }
-.container img{
+.image-text-column{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 10px; 
+    padding: 2%;
+}
+.image-text-column img{
     height: auto; 
     width: auto;
 }
@@ -46,16 +75,7 @@ h1{
     height: auto; 
     width: auto;
 }
-.image-text-column{
-    display: flex;
-    flex-direction: column; 
-    row-gap: 10px; 
-    padding: 2%;
-}
-.image-text-column img{
-    height: auto; 
-    width: auto;
-}
+
 body{
     background-color: (133,211,143);
 }
