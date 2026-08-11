@@ -9,27 +9,38 @@ h1{
     font: 1em sans-serif;
     font-size: xx-large;
 }
+.image-link{
+    display: inline-block;
+    text-decoration: none;
+}
+.image-link img{
+    width: 50px;
+    height: 50px;
+}
 .navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-          
+}         
 .navbar li{
-    float: left;
+    float: inline-start;
 }
-          
-.navbar li a{ 
-    display: block;
-    text-align: center;
+.navbar li img{
+    width: 50px;
+    height: 50px;
+}
+.navbar ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 14px 16px;
 }
 .navbar a{
     background-color: rgb(133,211,143);
 }
 .navbar a{
-    text-decoration: none;
+    font: 1em sans-serif;
     color: rgb(42, 104, 51);
 }
 
@@ -96,7 +107,7 @@ h1{
 .activities-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-around;  
     gap: 20px;
 }
 .members-container{
@@ -129,6 +140,6 @@ h1{
 body{
     background-color: rgb(133, 211, 143);
 }
-img{
+img:not(.image-link img){
     border: 5px solid rgb(42, 104, 51);
 }
