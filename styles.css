@@ -23,23 +23,23 @@ h1{
     padding: 0;
     overflow: hidden;
 }         
-.navbar li{
-    float: inline-start;
+.navbar li {
+    float: left;
 }
 .navbar li img{
     width: 50px;
     height: 50px;
 }
-.navbar ul{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.navbar li a { 
+    display: block;
+    text-align: center;
     padding: 14px 16px;
-}
+    }
 .navbar a{
     background-color: rgb(133,211,143);
 }
 .navbar a{
+    text-decoration: none;
     font: 1em sans-serif;
     color: rgb(42, 104, 51);
 }
