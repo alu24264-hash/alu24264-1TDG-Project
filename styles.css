@@ -34,7 +34,7 @@ h1{
     display: block;
     text-align: center;
     padding: 14px 16px;
-    font-size: larger;
+    font-size: x-large;
     }
 .navbar a{
     background-color: rgb(133,211,143);
@@ -67,10 +67,11 @@ h1{
 .about-container{
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding: 3%;
 }
 .about-text{
-        padding: 5%;
+    font-size: x-large;
+    padding: 2%;
 }
 .about-column{
     display: flex;
@@ -79,7 +80,7 @@ h1{
     gap: 10px;
 }
 .about-column img{
-    width: 520px;
+    width: 620px;
     height: 520px;
     object-fit: fill;
 }
@@ -114,7 +115,7 @@ h1{
 .members-container{
     display: flex;
     flex-direction: row; 
-    row-gap: 10px; 
+    row-gap: 5px; 
 }
 .members-column{
     display: flex;
@@ -132,10 +133,11 @@ h1{
     flex-direction: column;
     justify-content: space-between;  
     gap: 10px;
+    padding: 3%;
 }
 .members-image{
-    width: 820px;
-    height: 720px;
+    width: 800px;
+    height: 700px;
     object-fit: cover;
 }
 body{
